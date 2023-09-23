@@ -418,6 +418,7 @@ nav {
     .develops-container {
        flex-direction: column;
        padding-top: 40px;
+       border-bottom: none;
     }   
 }
 
@@ -448,8 +449,6 @@ nav {
     .develops-heading {
        font-size: 28px;
        width: 320px;
-       margin-left: 20px;
-       margin-bottom: 30px;
     }   
 }
 
@@ -473,9 +472,23 @@ nav {
 
 @media screen and (max-width: 767px) {
     .develops-text {
-       font-size: 16px;
-       max-width: 400px !important;
-       margin: 0 auto;
+       font-size: 13px;
+       width: 320px;
+    }   
+}
+
+@media screen and (max-width: 1199px) {
+    .develops-img {
+        
+    }   
+}
+
+@media screen and (max-width: 767px) {
+    .develops-img {
+       width: 310px;
+       margin-top: 10px;
+       margin-bottom: 20px;
+       
     }   
 }
 
@@ -490,6 +503,7 @@ nav {
     margin-bottom: 53px;
 }
 
+
 .about-number-list-item {
     display: flex;
     flex-direction: column;
@@ -497,11 +511,30 @@ nav {
     margin-right: 100px;
 }
 
+@media screen and (max-width: 767px) {
+    .number-none {
+        display: none; 
+    }   
+}
+
 .number-list {
     margin-top: 70px;
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .develops-text {
+        font-size: 15px;
+    }   
+}
+
+@media screen and (max-width: 767px) {
+    .number-list {
+        flex-direction: column;
+        margin-top: 100px; 
+    }   
 }
 
 .box {
