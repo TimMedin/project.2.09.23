@@ -36,9 +36,6 @@ nav {
     }   
 }
 
-
-
-
 .nav-list {
     display: flex;
     align-items: flex-end;
@@ -267,11 +264,14 @@ nav {
     margin: 0 auto;
 }
 
-/* @media screen and (max-width: 1199px) {
-    .about-heading {
-        font-size: 33px;
+
+@media screen and (max-width: 1199px) {
+    .service-list {
+        margin-top: 158px;
+        margin-bottom: 120px;
+        flex-direction: column;
     }   
-} */
+}
 
 @media screen and (max-width: 767px) {
     .service-list {
@@ -292,6 +292,12 @@ nav {
 }
 
 @media screen and (max-width: 767px) {
+    .service-list-item {
+        margin-right: 0 !important;
+    }   
+}
+
+@media screen and (max-width: 1199px) {
     .service-list-item {
         margin-right: 0 !important;
     }   
@@ -427,6 +433,13 @@ nav {
     margin-right: 121px;
 }
 
+@media screen and (max-width: 1199px) {
+    .develops-box {
+       margin-right: 0;
+    }   
+}
+
+
 .develops-heading {
     width: 424px;
     height: 88px;
@@ -467,6 +480,7 @@ nav {
 @media screen and (max-width: 1199px) {
     .develops-text {
         font-size: 15px;
+        width: 350px;
     }   
 }
 
@@ -479,12 +493,14 @@ nav {
 
 @media screen and (max-width: 1199px) {
     .develops-img {
+        display: none;
         
     }   
 }
 
 @media screen and (max-width: 767px) {
     .develops-img {
+        display: block;
        width: 310px;
        margin-top: 10px;
        margin-bottom: 20px;
@@ -509,6 +525,12 @@ nav {
     flex-direction: column;
     justify-content: center;
     margin-right: 100px;
+}
+
+@media screen and (max-width: 1199px) {
+    .about-number-list-item {
+       margin-right: 30px;
+    }   
 }
 
 @media screen and (max-width: 767px) {
@@ -595,6 +617,13 @@ nav {
     margin-right: 30px;
 }
 
+@media screen and (max-width: 767px) {
+    .work-card-list-item {
+       margin-right: 0;
+       margin-bottom: 35px;
+    }   
+}
+
 .works-text-box {
     display: flex;
     padding-top: 100px;
@@ -611,6 +640,14 @@ nav {
     font-style: normal;
     font-weight: 700;
     line-height: 146.28%; /* 52.661px */
+}
+
+@media screen and (max-width: 767px) {
+    .works-heading {
+        font-size: 28px;
+        width: 320px;
+       
+    }   
 }
 
 .works-btn {
@@ -641,6 +678,15 @@ nav {
     margin-top: 70px;
 }
 
+
+
+@media screen and (max-width: 767px) {
+    .work-card-list {
+       flex-direction: column;
+       padding: 0 15px;
+    }   
+}
+
 .work-card-box::after {
     position: absolute;
     bottom: -85px;
@@ -663,6 +709,8 @@ nav {
     font-weight: 600;
     line-height: normal;
 }
+
+
 
 .work-card-text {
     margin-bottom: 47px;
@@ -907,6 +955,10 @@ nav {
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
+}
+
+.text-dark:hover {
+    color: #323232 !important;
 }
 
 .subscribe-input:focus {
